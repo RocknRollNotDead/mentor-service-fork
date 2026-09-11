@@ -23,4 +23,3 @@
 ```bash
  docker build -t mentor-service:local-stack .
 ```
-
