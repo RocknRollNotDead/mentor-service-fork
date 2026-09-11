@@ -20,9 +20,6 @@ on:
 
 jobs:
   trigger-e2e:
-
-
-  
     name: Trigger E2E Test in e2e repo
     runs-on: ubuntu-latest
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
