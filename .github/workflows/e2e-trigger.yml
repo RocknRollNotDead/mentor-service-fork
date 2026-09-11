@@ -55,7 +55,7 @@ jobs:
           ref: dev
           client_payload: |
             {
-              "mentor_service_tag": "sha-${{ steps.vars.outputs.sha_short }}"
+              "mentor_service_tag": "sha-5f59cff"
             }
           propagate_failure: true
           trigger_workflow: true
