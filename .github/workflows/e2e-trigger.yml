@@ -4,7 +4,6 @@ permissions:
   checks: read
   statuses: read
 
-
 on:
   workflow_run:
     workflows: [ "CI - Build & Push Docker Image" ]
